@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100vh;
+}
+
+/* ------- CABEÇALHO ------- */
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+}
+
+.logo-metro {
+  height: 90%;
+}
+
+.titulo-pag {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* ------- MAIN ------- */
+
+.main {
+  flex: 1 0 auto;
+  display: flex;
+  gap: 15px;
+}
+
+.conteudo {
+  background-color: aqua;
+}
+
+.navegacao {
+  background-color: blueviolet;
+  width: 30px;
+}
+
+/* ------- RODAPÉ ------- */
+
+.footer {
+  height: 30px;
+  display: flex;
+  flex-flow: row-reverse;
+  padding: 0 10px;
+}
